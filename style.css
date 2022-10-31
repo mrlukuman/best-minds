@@ -160,7 +160,7 @@ code {
 #team {
   display: grid;
   place-content: center;
-  height: 95vh;
+  min-height: 95vh;
   background-color: green;
   color: white;
   border-radius: 40px;
@@ -179,7 +179,7 @@ code {
   justify-content: center;
   align-items: center;
   margin-bottom: 4rem;
-  gap: 1rem;
+  gap: 6rem;
 }
 
 .mentor-details {
@@ -240,5 +240,13 @@ hr {
 
   code {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .mentor-profile {
+    padding-top: 2rem;
+    flex-direction: column;
+    gap: 2rem;
   }
 }
