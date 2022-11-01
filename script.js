@@ -10,5 +10,5 @@ hamburger.addEventListener("click", () => {
 overlay.addEventListener("click", () => {
   overlay.classList.toggle("display-none");
   console.log("clicked");
-  body.classList.toggle("overflow-hidden");
+  html.classList.toggle("overflow-hidden");
 });
