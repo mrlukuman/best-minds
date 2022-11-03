@@ -211,7 +211,9 @@ code {
 .mentor-socials {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  height: 10rem;
+  /* gap: 2rem; */
+  justify-content: space-evenly;
 }
 .mentor-details a:hover {
   transform: scale(1.1);
@@ -255,6 +257,5 @@ hr {
 @media (max-width: 700px) {
   .mentor-profile {
     flex-direction: column;
-    gap: 2rem;
   }
 }
